@@ -3,7 +3,7 @@ package Gek;  //почему не работает в основной дире�
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-// почему работает без аннотаций
+// почему работает без аннотаций и зачем нужна @Configuration, @EnableAutoConfiguration, @ComponentScan и как они работают
 public class Main {
     static ApplicationContext context = new AnnotationConfigApplicationContext(Dwarf.class, Elf.class, Raid.class); // всё же что сюда пихать? классы с бинами или конфиг класс
 

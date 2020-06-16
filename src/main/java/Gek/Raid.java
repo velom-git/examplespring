@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class Raid {
 
-    @Autowired
+    @Autowired //@Inject зачем нужны аннотации джавы?
     void fightVSRaid(Dwarf dwarf, Elf elf){  // он создаёт дварфа и эльфа с пустыми филдами? как использовать созданных?
         dwarf.beat();
         elf.run();
